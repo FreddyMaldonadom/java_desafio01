@@ -9,15 +9,16 @@ public class clase9 {
 //            System.out.print("\u001B[32m"+"*"+"\u001B[0m");
 //        }
         //Dibuje * y puntos
-        System.out.println("Ingrese numero de puntos para dibujar: ");
-        int numero = sc.nextInt();
 
-        for(int i=0; i<= numero-1; i++);{
-            if(1%2==0){
-                System.out.print("\u001B[32m"+"*"+"\u001B[0m");}
-                else {
-                    System.out.print("\u001B[33m"+"."+"\u001B[0m");
+                System.out.println("Ingrese número de puntos para dibujar: ");
+                int numero = sc.nextInt();
+
+                for (int i = 0; i < numero; i++) {
+                    if (i % 2 == 0) {
+                        System.out.print("\u001B[32m" + "*" + "\u001B[0m");
+                    } else {
+                        System.out.print("\u001B[33m" + "." + "\u001B[0m");
+                    }
                 }
             }
         }
-}
